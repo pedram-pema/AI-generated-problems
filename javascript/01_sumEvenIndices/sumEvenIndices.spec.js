@@ -1,4 +1,4 @@
-import { sumEvenIndices } from './sumEvenIndices.js'; // Replace 'yourFileName.js' with your actual JavaScript file name
+const { sumEvenIndices } = require('./sumEvenIndices.js'); // Replace 'yourFileName.js' with your actual JavaScript file name
 
 describe('sumEvenIndices', () => {
   it('should return 0 for an empty array', () => {
