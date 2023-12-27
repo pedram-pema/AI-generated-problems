@@ -10,6 +10,13 @@
 */
 
 export function doubleEvenNumbers(arr) {
-    // Write function logic here
-    
+  arr.forEach(myFunction);
+
+  function myFunction(value) {
+    if (value % 2 === 0) {
+      return value * 2;
+    }
   }
+}
+
+module.exports = doubleEvenNumbers;
