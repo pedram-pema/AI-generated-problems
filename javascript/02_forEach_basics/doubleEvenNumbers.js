@@ -10,13 +10,13 @@
 */
 
 function doubleEvenNumbers(arr) {
-  arr.forEach(myFunction);
-
-  function myFunction(value) {
+  arr.forEach((value, index) => {
     if (value % 2 === 0) {
-      return value * 2;
+      arr[index] = value * 2;
     }
-  }
+  });
+
+  return arr; 
 }
 
 module.exports = doubleEvenNumbers;
