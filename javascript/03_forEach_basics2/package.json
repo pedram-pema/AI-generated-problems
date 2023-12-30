@@ -1,0 +1,12 @@
+{
+  "name": "03_foreach_basics2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "forEachBasics2.js",
+  "scripts": {
+    "test": "../node_modules/.bin/jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
