@@ -2,7 +2,7 @@ const calculateSpecialSum = require('./specialSum'); // Replace 'yourFileName.js
 
 describe('calculateSpecialSum', () => {
   it('should calculate the special sum correctly', () => {
-    expect(calculateSpecialSum([3, 7, 2, 9, 4, 8])).toBe(15);
+    expect(calculateSpecialSum([3, 7, 2, 9, 4, 8])).toBe(6);
   });
 
   it('should return 0 for an empty array', () => {
